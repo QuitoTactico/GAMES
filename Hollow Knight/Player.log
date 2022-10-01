@@ -1,0 +1,146 @@
+Mono path[0] = 'C:/Games/Hollow Knight/hollow_knight_Data/Managed'
+Mono config path = 'C:/Games/Hollow Knight/MonoBleedingEdge/etc'
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Games/Hollow Knight/hollow_knight_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   
+    VRAM:     128 MB
+    Driver:   9.17.10.4459
+Begin MonoManager ReloadAssembly
+- Completed reload, in 13.794 seconds
+OnLevelWasLoaded was found on GameMap
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on PlayMakerUnity2d
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.522100 ms
+Graphics tier changed to High
+
+Steam initializing
+
+Steam logged in as TheQuito
+
+Selected online subsystem SteamOnlineSubsystem
+
+Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded saved language code 'ES'
+
+Restored language code 'ES'
+
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3814.
+Total: 348.248800 ms (FindLiveObjects: 1.059200 ms CreateObjectMapping: 149.684200 ms MarkObjects: 197.398000 ms  DeleteObjects: 0.105500 ms)
+
+Steam stats received.
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Didn't need to wait for PlayerPrefs load.
+
+UnloadTime: 45.452600 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+Performing automatic level start.
+
+Failed to retrieve achievement state for ENDING_A
+
+Failed to retrieve achievement state for ENDING_B
+
+Failed to retrieve achievement state for ENDING_C
+
+Failed to retrieve achievement state for STEELSOUL
+
+Game controller set to None.
+
+Controller Type: Unknown
+
+Unable to match controller of name (None), will attempt default mapping set.
+
+Active Gamepad Type: XBOX_360
+
+Game controller set to None.
+
+Failed to retrieve achievement state for FK_DEFEAT
+
+Failed to retrieve achievement state for ZOTE
+
+Failed to retrieve achievement state for NEGLECT
+
+Failed to retrieve achievement state for NAILSMITH_KILL
+
+Failed to retrieve achievement state for NAILSMITH_SPARE
+
+Failed to retrieve achievement state for QUIRREL_EPILOGUE
+
+Failed to retrieve achievement state for MOURNER
+
+Failed to retrieve achievement state for STAG_STATION_ALL
+
+Failed to retrieve achievement state for COLOSSEUM_3
+
+Failed to retrieve achievement state for ENDING_A
+
+Failed to retrieve achievement state for ENDING_B
+
+Failed to retrieve achievement state for ENDING_C
+
+Failed to retrieve achievement state for VOID
+
+Failed to retrieve achievement state for SPEEDRUN_1
+
+Failed to retrieve achievement state for SPEEDRUN_2
+
+Failed to retrieve achievement state for COMPLETION
+
+Failed to retrieve achievement state for SPEED_COMPLETION
+
+Failed to retrieve achievement state for STEELSOUL
+
+Failed to retrieve achievement state for STEELSOUL_COMPLETION
+
+Failed to retrieve achievement state for HUNTER_1
+
+Failed to retrieve achievement state for HUNTER_2
+
+Failed to retrieve achievement state for MR_MUSHROOM
+
+Failed to retrieve achievement state for NIGHTMARE_GRIMM
+
+Failed to retrieve achievement state for BANISHMENT
+
+Failed to retrieve achievement state for PANTHEON1
+
+Failed to retrieve achievement state for PANTHEON2
+
+Failed to retrieve achievement state for PANTHEON3
+
+Failed to retrieve achievement state for PANTHEON4
+
+Failed to retrieve achievement state for ENDINGD
+
+Failed to retrieve achievement state for COMPLETIONGG
+
+pd.maxHealth: 5 pd.maxHealthBase: 5
+
+pd.maxHealth: 9 pd.maxHealthBase: 9
+
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 46170.
+Total: 694.797000 ms (FindLiveObjects: 11.466200 ms CreateObjectMapping: 5.040700 ms MarkObjects: 677.800700 ms  DeleteObjects: 0.487900 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: d78 -> priority: 1 
+  Thread -> id: 404 -> priority: 1 
+Shutting down Steam API.
+
