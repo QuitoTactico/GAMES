@@ -1,0 +1,86 @@
+﻿## Config file for More Slugcats Expansion (moreslugcats)
+## Mod Author(s): MORE SLUGCATS EXPANSION TEAM
+## Mod Version: 1.9.01
+## Mod Description: An expansion adding five new playable campaigns, each unique in its spot on the timeline. This expansion includes new regions, creatures, items, music, alternate endings, new game modes, and much more.
+
+## If enabled, all scavenger corpses in Artificer's campaign always have the maximum possible karma value
+# Setting type: Boolean
+# Default value: false
+cfgArtificerCorpseMaxKarma = false
+
+## If enabled, scavenger corpses in Artificer's campaign don't lose karma after each cycle
+# Setting type: Boolean
+# Default value: false
+cfgArtificerCorpseNoKarmaLoss = false
+
+## The maximum number of subsequent explosion actions Artificer can perform before dying
+# Setting type: Int32
+# Default value: 10
+# Acceptable value range: From 1 to 999
+cfgArtificerExplosionCapacity = 10
+
+## Prevents the chance of the region being flooded during a shelter failure scenario
+# Setting type: Boolean
+# Default value: false
+cfgDisablePrecycleFloods = false
+
+## Prevents the chance of waking up early before the rain has stopped
+# Setting type: Boolean
+# Default value: false
+cfgDisablePrecycles = false
+
+## (Normally requires finding Orange unlock tokens in the campaign maps)
+# Setting type: Boolean
+# Default value: false
+chtUnlockArenas = false
+
+## (Normally requires completing previous campaigns to unlock)
+# Setting type: Boolean
+# Default value: false
+chtUnlockCampaigns = false
+
+## (Normally requires completing campaigns and clearing previous challenges)
+# Setting type: Boolean
+# Default value: false
+chtUnlockChallenges = false
+
+## (Normally requires finding Green unlock tokens in the campaign maps)
+# Setting type: Boolean
+# Default value: false
+chtUnlockClasses = true
+
+## (Normally requires delivering pearls and finding broadcast tokens in the campaign maps)
+# Setting type: Boolean
+# Default value: false
+chtUnlockCollections = false
+
+## (Normally requires finding Blue unlock tokens in the campaign maps)
+# Setting type: Boolean
+# Default value: false
+chtUnlockCreatures = false
+
+## (Normally requires completing all Challenge Mode challenges)
+# Setting type: Boolean
+# Default value: false
+chtUnlockDevCommentary = false
+
+## (Normally requires finding Blue unlock tokens in the campaign maps)
+# Setting type: Boolean
+# Default value: false
+chtUnlockItems = false
+
+## (Normally requires completing Gourmand's campaign)
+# Setting type: Boolean
+# Default value: false
+chtUnlockOuterExpanse = false
+
+## (Normally requires finding Red unlock tokens in the campaign maps)
+# Setting type: Boolean
+# Default value: false
+chtUnlockSafari = false
+
+## (Normally requires completing Gourmand's food tracker)
+# Setting type: Boolean
+# Default value: false
+chtUnlockSlugpups = false
+

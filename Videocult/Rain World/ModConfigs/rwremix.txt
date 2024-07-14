@@ -1,0 +1,249 @@
+﻿## Config file for Rain World Remix (rwremix)
+## Mod Author(s): AndrewFM and Willburd
+## Mod Version: 
+## Mod Description: A wide variety of configurable accessibility features and community requested features, including new gameplay mechanics and bonus features. Use the configuration screen to toggle individual features on or off.
+
+## Red Lizards have a tongue and can snap spears in half with their bite
+# Setting type: Boolean
+# Default value: true
+cfgAlphaRedLizards = true
+
+## Show a visual indicator on the UI of your remaining breath time
+# Setting type: Boolean
+# Default value: false
+cfgBreathTimeVisualIndicator = false
+
+## Makes the death gradients on bottomless pits more visible
+# Setting type: Boolean
+# Default value: false
+cfgClearerDeathGradients = true
+
+## Prevents falling off from poles when throwing objects
+# Setting type: Boolean
+# Default value: true
+cfgClimbingGrip = true
+
+## Show icons of nearby creatures on the minimap
+# Setting type: Boolean
+# Default value: true
+cfgCreatureSense = true
+
+## Adds additional deer behavior, like being able to influence their behavior by wiggling in their antlers
+# Setting type: Boolean
+# Default value: true
+cfgDeerBehavior = true
+
+## Allow passing any gate for free, regardless of your current karma level
+# Setting type: Boolean
+# Default value: false
+cfgDisableGateKarma = false
+
+## Removes visual effects that cause the screen to shake
+# Setting type: Boolean
+# Default value: false
+cfgDisableScreenShake = false
+
+## Gives the player the ability to dislodge spears that are embedded in walls
+# Setting type: Boolean
+# Default value: false
+cfgDislodgeSpears = false
+
+## All lizard breeds have unique sound effects and voices
+# Setting type: Boolean
+# Default value: true
+cfgExtraLizardSounds = true
+
+## Introduces a few additional in-game tutorial messages for certain mechanics and scenarios
+# Setting type: Boolean
+# Default value: true
+cfgExtraTutorials = true
+
+## Reduces the amount of time taken to get started with a new cycle
+# Setting type: Boolean
+# Default value: false
+cfgFasterShelterOpen = false
+
+## Increase the speed that the minimap reveals itself
+# Setting type: Boolean
+# Default value: true
+cfgFastMapReveal = true
+
+## Swim boosting will not consume additional breath time
+# Setting type: Boolean
+# Default value: false
+cfgFreeSwimBoosts = false
+
+## For all campaigns, gates will remain open permanently after passing through them once
+# Setting type: Boolean
+# Default value: false
+cfgGlobalMonkGates = false
+
+## Gives a chance of escaping from different grasps by rapidly wiggling with the movement buttons
+# Setting type: Boolean
+# Default value: true
+cfgGraspWiggling = true
+
+## Hide the remaining cycle time while in maps that are safe from the rain
+# Setting type: Boolean
+# Default value: true
+cfgHideRainMeterNoThreat = true
+
+## Stops Scavengers from being able to steal the spear off of Hunter's back
+# Setting type: Boolean
+# Default value: true
+cfgHunterBackspearProtect = true
+
+## Stops Hunter from automatically grabbing batflies with a free hand
+# Setting type: Boolean
+# Default value: true
+cfgHunterBatflyAutograb = true
+
+## Changes the amount of bonus cycles Hunter can receive during their campaign
+# Setting type: Int32
+# Default value: 5
+# Acceptable value range: From 0 to 9999
+cfgHunterBonusCycles = 5
+
+## Changes the amount of cycles Hunter starts with in their campaign
+# Setting type: Int32
+# Default value: 20
+# Acceptable value range: From 1 to 9999
+cfgHunterCycles = 20
+
+## Increases the amount of time that rocks and snail pops can cause some creatures to be stunned for
+# Setting type: Boolean
+# Default value: false
+cfgIncreaseStuns = false
+
+## Prevents Jetfish from being able to knock items out of your hands
+# Setting type: Boolean
+# Default value: true
+cfgJetfishItemProtection = true
+
+## Passages bring all key items in a shelter with you to the new destination, rather than just the stomach item
+# Setting type: Boolean
+# Default value: true
+cfgKeyItemPassaging = true
+
+## Key items are tracked on the map and will respawn on subsequent cycles if they are lost, at the location they were lost
+# Setting type: Boolean
+# Default value: true
+cfgKeyItemTracking = true
+
+## Increases the radius of Monk's hologram light in pitch-black areas
+# Setting type: Boolean
+# Default value: false
+cfgLargeHologramLight = false
+
+## Periodically shows tips and tutorials during the loading screen between cycles
+# Setting type: Boolean
+# Default value: true
+cfgLoadingScreenTips = true
+
+## Increases the amount of underwater breath time that Monk has
+# Setting type: Boolean
+# Default value: true
+cfgMonkBreathTime = true
+
+## Dynamic difficulty is influenced by number of regions visited more than number of cycles survived
+# Setting type: Boolean
+# Default value: true
+cfgNewDynamicDifficulty = true
+
+## Prevent injured creatures from fleeing to dens in arena mode
+# Setting type: Boolean
+# Default value: true
+cfgNoArenaFleeing = true
+
+## All cycles will have the same duration, and will always use the longest duration possible
+# Setting type: Boolean
+# Default value: false
+cfgNoRandomCycles = false
+
+## Use the throw button to activate tongue controls rather than the jump button
+# Setting type: Boolean
+# Default value: false
+cfgOldTongue = false
+
+## Reduces the volume for the sound effects of gates and shelters opening
+# Setting type: Boolean
+# Default value: false
+cfgQuieterGates = false
+
+## Multiplies the total duration of the rain timer by this amount
+# Setting type: Single
+# Default value: 1
+# Acceptable value range: From 0 to 10
+cfgRainTimeMultiplier = 1
+
+## Centipedes will release you if you go through a pipe while you are grabbed by one
+# Setting type: Boolean
+# Default value: true
+cfgSafeCentipedes = true
+
+## Items that typically attach to the terrain with a stem will spawn with their stems when placed in Sandbox mode
+# Setting type: Boolean
+# Default value: true
+cfgSandboxItemStems = true
+
+## Give a grace period on cycle start and region entry before scavenger kill squads can attack you
+# Setting type: Boolean
+# Default value: true
+cfgScavengerKillSquadDelay = true
+
+## Prevents underwater shortcut symbols from being obscured by the water layer
+# Setting type: Boolean
+# Default value: true
+cfgShowUnderwaterShortcuts = true
+
+## Reduces the overall speed of the game to assist with reaction times
+# Setting type: Single
+# Default value: 1
+# Acceptable value range: From 1 to 5
+cfgSlowTimeFactor = 1
+
+## The current session playtime will always be visible as a UI element in-game
+# Setting type: Boolean
+# Default value: false
+cfgSpeedrunTimer = false
+
+## Allows certain passages to gain progress even before the Survivor passage has been achieved
+# Setting type: Boolean
+# Default value: true
+cfgSurvivorPassageNotRequired = true
+
+## Increases the amount of time before you are forced to come up for air while drowning
+# Setting type: Boolean
+# Default value: true
+cfgSwimBreathLeniency = true
+
+## Shows a visual pulse on screen when threats are nearby
+# Setting type: Boolean
+# Default value: false
+cfgThreatMusicPulse = false
+
+## The rain timer makes a tick-tock noise while the UI is visible
+# Setting type: Boolean
+# Default value: true
+cfgTickTock = true
+
+## Gives additional options for the directions and ways that objects can be thrown in certain circumstances
+# Setting type: Boolean
+# Default value: true
+cfgUpwardsSpearThrow = true
+
+## Advantageous glitches and speedrunner exploits are made available to use again with this option
+# Setting type: Boolean
+# Default value: false
+cfgVanillaExploits = false
+
+## Jellyfish are vulnerable to being stabbed
+# Setting type: Boolean
+# Default value: true
+cfgVulnerableJellyfish = true
+
+## Enable the wall pounce mechanic
+# Setting type: Boolean
+# Default value: true
+cfgWallpounce = true
+
