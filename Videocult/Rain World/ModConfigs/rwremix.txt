@@ -1,6 +1,6 @@
 ﻿## Config file for Rain World Remix (rwremix)
 ## Mod Author(s): AndrewFM and Willburd
-## Mod Version: 
+## Mod Version: 1.9.15b
 ## Mod Description: A wide variety of configurable accessibility features and community requested features, including new gameplay mechanics and bonus features. Use the configuration screen to toggle individual features on or off.
 
 ## Red Lizards have a tongue and can snap spears in half with their bite
@@ -11,7 +11,7 @@ cfgAlphaRedLizards = true
 ## Show a visual indicator on the UI of your remaining breath time
 # Setting type: Boolean
 # Default value: false
-cfgBreathTimeVisualIndicator = false
+cfgBreathTimeVisualIndicator = true
 
 ## Makes the death gradients on bottomless pits more visible
 # Setting type: Boolean
@@ -46,7 +46,7 @@ cfgDisableScreenShake = false
 ## Gives the player the ability to dislodge spears that are embedded in walls
 # Setting type: Boolean
 # Default value: false
-cfgDislodgeSpears = false
+cfgDislodgeSpears = true
 
 ## All lizard breeds have unique sound effects and voices
 # Setting type: Boolean
@@ -102,13 +102,13 @@ cfgHunterBatflyAutograb = true
 # Setting type: Int32
 # Default value: 5
 # Acceptable value range: From 0 to 9999
-cfgHunterBonusCycles = 5
+cfgHunterBonusCycles = 100
 
 ## Changes the amount of cycles Hunter starts with in their campaign
 # Setting type: Int32
 # Default value: 20
 # Acceptable value range: From 1 to 9999
-cfgHunterCycles = 20
+cfgHunterCycles = 200
 
 ## Increases the amount of time that rocks and snail pops can cause some creatures to be stunned for
 # Setting type: Boolean
@@ -155,6 +155,11 @@ cfgNewDynamicDifficulty = true
 # Default value: true
 cfgNoArenaFleeing = true
 
+## Stops nearby explosions causing a ringing sound to play
+# Setting type: Boolean
+# Default value: false
+cfgNoMoreTinnitus = false
+
 ## All cycles will have the same duration, and will always use the longest duration possible
 # Setting type: Boolean
 # Default value: false
@@ -173,7 +178,7 @@ cfgQuieterGates = false
 ## Multiplies the total duration of the rain timer by this amount
 # Setting type: Single
 # Default value: 1
-# Acceptable value range: From 0 to 10
+# Acceptable value range: From 0.25 to 10
 cfgRainTimeMultiplier = 1
 
 ## Centipedes will release you if you go through a pipe while you are grabbed by one
